@@ -9,7 +9,6 @@ import os
 model_path = 'my_model.keras'
 if os.path.exists(model_path):
     model = keras.models.load_model(model_path)
-    # "test string"
 else:
     print(f"Model file '{model_path}' not found.")
     exit()
