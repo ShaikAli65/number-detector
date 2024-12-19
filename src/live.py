@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Load the model if available
+# Load the model if available
 model_path = 'my_model.keras'
 if os.path.exists(model_path):
     model = keras.models.load_model(model_path)
